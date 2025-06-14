@@ -20,7 +20,7 @@ const io = new Server(server, {
   transports: ['websocket', 'polling'],
 });
 
-const PORT = 4003;
+const PORT = 4004;
 
 // Email Configuration
 const transporter = nodemailer.createTransport({
